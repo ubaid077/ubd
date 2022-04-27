@@ -9,6 +9,6 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    __import__('ubd').check()
+    __import__('ubd').join()
 elif bit == '32bit':
     exit('Your Device Not Supported')
